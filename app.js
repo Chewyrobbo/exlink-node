@@ -2,7 +2,7 @@
 var SerialPort = require("serialport").SerialPort;
 var fs = require('fs');
 var hexConv = require('./toHex.js');
-var checksum = require('.checksum.js');
+var checksum = require('./checksum.js');
 var port  = new SerialPort("/dev/cu.usbserial"); //Replace this with your serial port device
 var options = process.argv[2];
 
